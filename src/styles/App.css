@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #6509e647;
+	font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+}
+.table thead tr th:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table thead tr th:last-child {
+	border-radius: 0 8px 8px 0;
+}
+.table tbody td {
+	text-align: left;
+	border: none;
+	padding: 4px 12px;
+	font-size: 20px;
+	vertical-align: top;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.table tbody tr:nth-child(even){
+	background: #6509e647;
+}
+.table tbody tr td:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table tbody tr td:last-child {
+	border-radius: 0 8px 8px 0;
+}
+
+.brd {
+    width: 10%;
+    background: rgb(255, 255, 255);
+    
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+
+.graphic{
+  float: left;
+  display: flex;
+}
+
+.App {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+body {
+	background: linear-gradient(#c6e4ee 0%, #c6e4ee 40%, #fed1ae 60%);
+}
